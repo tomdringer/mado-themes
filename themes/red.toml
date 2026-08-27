@@ -1,0 +1,67 @@
+# Tailwind CSS — Red palette
+# https://tailwindcss.com/docs/colors
+
+[meta]
+name = "red"
+dark = true
+
+[palette]
+"50"  = "#fef2f2"
+"100" = "#fee2e2"
+"200" = "#fecaca"
+"300" = "#fca5a5"
+"400" = "#f87171"
+"500" = "#ef4444"
+"600" = "#dc2626"
+"700" = "#b91c1c"
+"800" = "#991b1b"
+"900" = "#7f1d1d"
+"950" = "#450a0a"
+
+[ui]
+window_bg        = "#7f1d1d"  # 900
+sidebar_bg       = "#7f1d1d"  # 900
+card_bg          = "#991b1b"  # 800
+card_border      = "#b91c1c"  # 700
+terminal_area_bg = "#450a0a"  # 950
+pane_bg          = "#7f1d1d"  # 900
+pane_toolbar     = "#991b1b"  # 800
+focus_border     = "#f87171"  # 400
+active_dot       = "#22c55e"  # green-500
+divider_active   = "#f87171"  # 400
+divider_inactive = "#b91c1c"  # 700
+text_primary     = "#fee2e2"  # 100
+text_muted       = "#ef4444"  # 500
+
+[terminal]
+foreground = "#cccccc"
+background = "#991b1b"
+
+[terminal.ansi]
+black          = "#1e2030"
+red            = "#f7768e"
+green          = "#9ece6a"
+yellow         = "#e0af68"
+blue           = "#7aa2f7"
+magenta        = "#bb9af7"
+cyan           = "#7dcfff"
+white          = "#c0caf5"
+bright_black   = "#464858"
+bright_red     = "#ff9eb6"
+bright_green   = "#c6f692"
+bright_yellow  = "#ffd790"
+bright_blue    = "#a2caff"
+bright_magenta = "#e3c2ff"
+bright_cyan    = "#a5f7ff"
+bright_white   = "#e8f2ff"
+
+[starship]
+color_fg0    = "#fee2e2"  # red-100     — text on all segments
+color_bg1    = "#450a0a"  # red-950     — time segment
+color_bg3    = "#7f1d1d"  # red-900     — docker segment
+color_blue   = "#991b1b"  # red-800     — language segment
+color_aqua   = "#0f766e"  # teal-700  — git segment
+color_yellow = "#b45309"  # amber-700  — directory segment
+color_orange = "#dc2626"  # red-600  — os/user segment
+color_green  = "#22c55e"  # green-500     — success (semantic)
+color_purple = "#6d28d9"  # violet-700  — vim replace

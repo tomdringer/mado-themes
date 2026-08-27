@@ -1,0 +1,63 @@
+# Mado theme template
+# Rename this file to your-theme-name.toml and fill in the values.
+# All colour values must be 6-digit hex strings: "#rrggbb"
+
+[ui]
+window_bg        = ""  # main window background
+terminal_area_bg = ""  # background behind terminal panes (usually the darkest colour)
+pane_bg          = ""  # individual pane background
+pane_toolbar     = ""  # pane toolbar / tab bar
+focus_border     = ""  # border of the focused pane (usually your accent colour)
+active_dot       = ""  # active session indicator (green works well: "#22c55e")
+card_bg          = ""  # sidebar card background
+card_border      = ""  # sidebar card border
+divider_active   = ""  # pane divider handle when dragging
+divider_inactive = ""  # pane divider handle at rest
+text_primary     = ""  # primary text (usually the lightest colour)
+text_muted       = ""  # secondary / muted text
+
+# Optional — override welcome banner colours.
+# Defaults: welcome_border → focus_border, welcome_muted/dim → text_muted
+# welcome_border = ""
+# welcome_muted  = ""
+# welcome_dim    = ""
+
+# Optional — Starship prompt palette.
+# Used when theme_starship = true in ~/.config/mado/config.toml.
+# All segment backgrounds must be dark enough for light text (aim for 4.5:1+ contrast against color_fg0).
+# Role names mirror the Gruvbox Starship preset so existing format strings work unchanged.
+#
+# [starship]
+# color_fg0    = ""  # text on all segments (usually your text_primary / lightest colour)
+# color_bg1    = ""  # time segment background       (darkest — use your 950 shade)
+# color_bg3    = ""  # docker/conda segment           (dark   — use your 900 shade)
+# color_blue   = ""  # language/runtime segment       (mid    — use your 800 shade)
+# color_aqua   = ""  # git segment                    (use a cross-hue 700 shade for contrast)
+# color_yellow = ""  # directory segment              (use a cross-hue 700 shade for contrast)
+# color_orange = ""  # os/user segment (rightmost)    (use your 600 or 700 shade — NOT 400, too bright)
+# color_green  = ""  # success prompt character       ("#22c55e" is a good default)
+# color_purple = ""  # vim replace mode indicator     (use a cross-hue 700 shade for contrast)
+
+# Optional — terminal ANSI colour palette.
+#
+# [terminal]
+# foreground = ""
+# background = ""
+#
+# [terminal.ansi]
+# black          = ""
+# red            = ""
+# green          = ""
+# yellow         = ""
+# blue           = ""
+# magenta        = ""
+# cyan           = ""
+# white          = ""
+# bright_black   = ""
+# bright_red     = ""
+# bright_green   = ""
+# bright_yellow  = ""
+# bright_blue    = ""
+# bright_magenta = ""
+# bright_cyan    = ""
+# bright_white   = ""

@@ -1,0 +1,45 @@
+# Tailwind CSS — Blue palette
+# https://tailwindcss.com/docs/colors
+
+[meta]
+name = "blue"
+dark = true
+
+[palette]
+"50"  = "#eff6ff"
+"100" = "#dbeafe"
+"200" = "#bfdbfe"
+"300" = "#93c5fd"
+"400" = "#60a5fa"
+"500" = "#3b82f6"
+"600" = "#2563eb"
+"700" = "#1d4ed8"
+"800" = "#1e40af"
+"900" = "#1e3a8a"
+"950" = "#172554"
+
+[ui]
+window_bg        = "#1e3a8a"  # 900
+sidebar_bg       = "#1e3a8a"  # 900
+card_bg          = "#1e40af"  # 800
+card_border      = "#1d4ed8"  # 700
+terminal_area_bg = "#172554"  # 950
+pane_bg          = "#1e3a8a"  # 900
+pane_toolbar     = "#1e40af"  # 800
+focus_border     = "#60a5fa"  # 400
+active_dot       = "#22c55e"  # green-500
+divider_active   = "#60a5fa"  # 400
+divider_inactive = "#1d4ed8"  # 700
+text_primary     = "#dbeafe"  # 100
+text_muted       = "#3b82f6"  # 500
+
+[starship]
+color_fg0    = "#dbeafe"  # blue-100     — text on all segments
+color_bg1    = "#172554"  # blue-950     — time segment
+color_bg3    = "#1e3a8a"  # blue-900     — docker segment
+color_blue   = "#1e40af"  # blue-800     — language segment
+color_aqua   = "#0f766e"  # teal-700  — git segment
+color_yellow = "#0e7490"  # cyan-700  — directory segment
+color_orange = "#2563eb"  # blue-600  — os/user segment
+color_green  = "#22c55e"  # green-500     — success (semantic)
+color_purple = "#6d28d9"  # violet-700  — vim replace

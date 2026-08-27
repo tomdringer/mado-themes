@@ -1,0 +1,67 @@
+# Tailwind CSS — Zinc palette
+# https://tailwindcss.com/docs/colors
+
+[meta]
+name = "zinc"
+dark = true
+
+[palette]
+"50"  = "#fafafa"
+"100" = "#f4f4f5"
+"200" = "#e4e4e7"
+"300" = "#d4d4d8"
+"400" = "#a1a1aa"
+"500" = "#71717a"
+"600" = "#52525b"
+"700" = "#3f3f46"
+"800" = "#27272a"
+"900" = "#18181b"
+"950" = "#09090b"
+
+[ui]
+window_bg        = "#18181b"  # 900
+sidebar_bg       = "#18181b"  # 900
+card_bg          = "#27272a"  # 800
+card_border      = "#3f3f46"  # 700
+terminal_area_bg = "#09090b"  # 950
+pane_bg          = "#18181b"  # 900
+pane_toolbar     = "#27272a"  # 800
+focus_border     = "#a1a1aa"  # 400
+active_dot       = "#22c55e"  # green-500
+divider_active   = "#a1a1aa"  # 400
+divider_inactive = "#3f3f46"  # 700
+text_primary     = "#f4f4f5"  # 100
+text_muted       = "#71717a"  # 500
+
+[terminal]
+foreground = "#cccccc"
+background = "#27272a"
+
+[terminal.ansi]
+black          = "#1e2030"
+red            = "#f7768e"
+green          = "#9ece6a"
+yellow         = "#e0af68"
+blue           = "#7aa2f7"
+magenta        = "#bb9af7"
+cyan           = "#7dcfff"
+white          = "#c0caf5"
+bright_black   = "#464858"
+bright_red     = "#ff9eb6"
+bright_green   = "#c6f692"
+bright_yellow  = "#ffd790"
+bright_blue    = "#a2caff"
+bright_magenta = "#e3c2ff"
+bright_cyan    = "#a5f7ff"
+bright_white   = "#e8f2ff"
+
+[starship]
+color_fg0    = "#f4f4f5"  # zinc-100     — text on all segments
+color_bg1    = "#09090b"  # zinc-950     — time segment
+color_bg3    = "#18181b"  # zinc-900     — docker segment
+color_blue   = "#27272a"  # zinc-800     — language segment
+color_aqua   = "#0f766e"  # teal-700  — git segment
+color_yellow = "#b45309"  # amber-700  — directory segment
+color_orange = "#52525b"  # zinc-600  — os/user segment
+color_green  = "#22c55e"  # green-500     — success (semantic)
+color_purple = "#6d28d9"  # violet-700  — vim replace
